@@ -1,0 +1,8 @@
+.footer {
+  background-color: var(--first400);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}

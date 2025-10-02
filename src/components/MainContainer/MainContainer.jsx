@@ -3,6 +3,7 @@ import { NavBar } from "../NavBar/NavBar"
 import { LeftSidebar } from "../SideBars/LeftSidebar"
 import { RightSidebar } from "../SideBars/RightSidebar"
 import './mainContainer.css'
+import { Footer } from "../Footer/Footer"
 
 export const MainContainer = () => {
   return (
@@ -13,6 +14,7 @@ export const MainContainer = () => {
         <Outlet />
         <RightSidebar />
       </div>
+      <Footer />
     </>
   )
 }
