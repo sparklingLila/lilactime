@@ -1,0 +1,11 @@
+.sidebar {
+  background-color: white;
+  width: 25%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 6px dashed var(--third500);
+}
+
+.sidebar h1 {
+  text-align: center;
+}

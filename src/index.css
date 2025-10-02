@@ -1,0 +1,88 @@
+:root {
+  --first300: #edd6f8;
+  --first350: #ddb7ee;
+  --first400: #d38df3;
+  --first500: #bd5aeb;
+  --second300: #fdf4de;
+  --second400: #F6E6C2;
+  --third400: #fec5f2;
+  --third500: #f59be1;
+  --third600: #d66dbf;
+  --text300: #866e58;
+  --text400: #64472E;
+}
+
+@font-face {
+  font-family: 'MilkyWay';
+  src: url('fonts/milkyway.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FreshTea';
+  src: url('fonts/freshtea.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('fonts/UbuntuMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('fonts/UbuntuMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('fonts/UbuntuMono-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('fonts/UbuntuMono-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  height: 100%;
+  margin: auto;
+  padding: 40px;
+  background-image: url('img/mainbg.jpg');
+}
+
+div {
+  font-family: 'UbuntuMono', monospace;
+  font-size: 20px;
+  color: var(--text300);
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'FreshTea', sans-serif;
+  font-weight: 400;
+  color: var(--third500);
+}
+
+.main-wrapper {
+  height: 100%;
+}
+
+
+/* BUTTONS */
+
+.basic-btn {
+  background-color: var(--first400);
+  color: var(--text300);
+}
+
+.basic-btn:hover {
+  background-color: var(--first500);
+  color: var(--text300);
+}
