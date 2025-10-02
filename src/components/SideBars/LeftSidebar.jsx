@@ -1,10 +1,14 @@
+import { Profile } from '../SideBarElements/Profile'
 import './sideBars.css'
 
 export const LeftSidebar = () => {
   return (
     <>
       <div className='sidebar'>
-        <h1>left sidebar</h1>
+        <Profile />
+        <div className="sidebar-element">
+          <h1>delulu land</h1>
+        </div>
       </div>
     </>
   )

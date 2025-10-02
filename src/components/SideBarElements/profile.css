@@ -1,0 +1,14 @@
+.avatar-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 50%;
+}
+
+h1 span {
+  font-size: 20px;
+}
