@@ -17,3 +17,36 @@
 .center-container h1 {
   font-family: 'MilkyWay', sans-serif;
 }
+
+h1 img {
+  height: 40px;
+}
+
+.title-w-bigicon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-w-bigicon h1 {
+  margin: 0;
+}
+
+.center-container p {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.divider {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
