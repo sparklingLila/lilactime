@@ -7,6 +7,7 @@
   padding: 20px;
   margin-top: 20px;
   border: 6px dashed var(--third500);
+  border-radius: 20px;
 }
 
 .sidebar-element h1 {
