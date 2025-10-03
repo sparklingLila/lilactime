@@ -1,4 +1,4 @@
-import { Ribbon } from "../Ribbon/Ribbon"
+import { Ribbon } from "../Icons/Ribbon"
 
 export const Home = () => {
   return (
