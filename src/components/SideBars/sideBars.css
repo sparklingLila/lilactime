@@ -13,3 +13,14 @@
 .sidebar-element h1 {
   text-align: center;
 }
+
+.title-w-smallicon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-w-smallicon img {
+  height: 40px;
+}

@@ -5,11 +5,14 @@ export const RightSidebar = () => {
     <>
       <div className='sidebar'>
         <div className='sidebar-element'>
-          <h1>right sidebar</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div className="title-w-smallicon">
+            <h1>shoutbox</h1>
+            <img src="img/pix5ls-chat.gif" alt="" />
+          </div>
+          <iframe src="https://www3.cbox.ws/box/?boxid=3549431&boxtag=Q34sFz" width="100%" height="400" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
         </div>
         <div className="sidebar-element">
-          <h1>otro cuadro</h1>
+          <h1>right sidebar</h1>
         </div>
       </div>
     </>
