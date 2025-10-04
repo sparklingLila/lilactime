@@ -1,13 +1,16 @@
 :root {
-  --first300: #edd6f8;
-  --first350: #ddb7ee;
-  --first400: #d38df3;
-  --first500: #bd5aeb;
-  --second300: #fffbd4;
-  --second400: #faf18f;
-  --third400: #fccde7;
-  --third500: #f59bcd;
-  --third600: #eb68b0;
+  --lav300: #edd6f8;
+  --lav350: #ddb7ee;
+  --lav400: #d38df3;
+  --lav500: #bd5aeb;
+  --yellow300: #fffbd4;
+  --yellow400: #faf18f;
+  --pink400: #fccde7;
+  --pink500: #f59bcd;
+  --pink600: #eb68b0;
+  --sax300: #c7eefa;
+  --sax400: #83defa;
+  --sax500: #3dc7f1;
   --text300: #866e58;
   --text400: #64472E;
 }
@@ -64,7 +67,7 @@ div {
 h1 {
   font-family: 'FreshTea', sans-serif;
   font-weight: 400;
-  color: var(--third500);
+  color: var(--pink500);
 }
 
 .main-wrapper {
@@ -78,11 +81,11 @@ h1 {
 /* BUTTONS */
 
 .basic-btn {
-  background-color: var(--first400);
+  background-color: var(--lav400);
   color: var(--text300);
 }
 
 .basic-btn:hover {
-  background-color: var(--first500);
+  background-color: var(--lav500);
   color: var(--text300);
 }

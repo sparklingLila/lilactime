@@ -5,7 +5,7 @@
   height: 400px;
   padding: 40px;
   box-sizing: border-box;
-  border: 6px dashed var(--third500);
+  border: 6px dashed var(--pink500);
   border-radius: 20px 20px 0 0;
   text-align: right;
   display: flex;
@@ -17,14 +17,14 @@
   font-family: 'UbuntuMono', sans-serif;
   font-size: 80px;
   font-weight: bold;
-  color: var(--first400);
+  color: var(--lav400);
   margin: 0;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--text300);
 }
 
 .navbar {
-  background-color: var(--first400);
+  background-color: var(--lav400);
   max-width: 1280px;
   padding: 10px;
   border-radius: 0 0 20px 20px;
@@ -41,6 +41,6 @@
 }
 
 .navbar a:hover {
-  color: var(--second400);
+  color: var(--yellow400);
   transition: 0.5s;
 }
