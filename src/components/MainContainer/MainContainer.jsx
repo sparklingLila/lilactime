@@ -4,6 +4,7 @@ import { LeftSidebar } from "../SideBars/LeftSidebar"
 import { RightSidebar } from "../SideBars/RightSidebar"
 import './mainContainer.css'
 import { Footer } from "../Footer/Footer"
+import { MediaILove } from "../MediaILove/MediaILove"
 
 export const MainContainer = () => {
   return (
@@ -14,6 +15,7 @@ export const MainContainer = () => {
         <Outlet />
         <RightSidebar />
       </div>
+      <MediaILove />
       <Footer />
     </>
   )

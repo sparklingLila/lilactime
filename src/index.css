@@ -3,11 +3,14 @@
   --lav350: #ddb7ee;
   --lav400: #d38df3;
   --lav500: #bd5aeb;
+  --pink300: #fccde7;
+  --pink400: #f59bcd;
+  --pink500: #eb68b0;
   --yellow300: #fffbd4;
   --yellow400: #faf18f;
-  --pink400: #fccde7;
-  --pink500: #f59bcd;
-  --pink600: #eb68b0;
+  --mint300: #b6fce4;
+  --mint400: #59f5ce;
+  --mint500: #21d6a9;
   --sax300: #c7eefa;
   --sax400: #83defa;
   --sax500: #3dc7f1;
@@ -53,6 +56,95 @@
   font-style: italic;
 }
 
+/* BACKGROUND COLORS */
+
+.bg-pink {
+  background-color: var(--pink300);
+}
+
+.bg-pink2 {
+  background-color: var(--pink400);
+}
+
+.bg-yellow {
+  background-color: var(--yellow300);
+}
+
+.bg-yellow2 {
+  background-color: var(--yellow400);
+}
+
+.bg-mint {
+  background-color: var(--mint300);
+}
+
+.bg-mint2 {
+  background-color: var(--mint400);
+}
+
+.bg-sax {
+  background-color: var(--sax300);
+}
+
+.bg-sax2 {
+  background-color: var(--sax400);
+}
+
+.bg-lav {
+  background-color: var(--lav300);
+}
+
+.bg-lav2 {
+  background-color: var(--lav400);
+}
+
+/* TEXT COLORS */
+
+.text-pink {
+  color: var(--pink400);
+}
+
+.text-yellow {
+  color: var(--yellow400);
+}
+
+.text-mint {
+  color: var(--mint400);
+}
+
+.text-sax {
+  color: var(--sax400);
+}
+
+.text-lav {
+  color: var(--lav400);
+}
+
+
+/* BORDER COLORS */
+
+.border-pink {
+  border: 6px dashed var(--pink400);
+}
+
+.border-yellow {
+  border: 6px dashed var(--yellow400);
+}
+
+.border-mint {
+  border: 6px dashed var(--mint400);
+}
+
+.border-sax {
+  border: 6px dashed var(--sax400);
+}
+
+.border-lav {
+  border: 6px dashed var(--lav400);
+}
+
+
+
 body {
   height: 100%;
   background-image: url('img/mainbg.jpg');
@@ -67,7 +159,6 @@ div {
 h1 {
   font-family: 'FreshTea', sans-serif;
   font-weight: 400;
-  color: var(--pink500);
 }
 
 .main-wrapper {

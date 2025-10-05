@@ -3,8 +3,8 @@ import { Heart } from "../Icons/Heart"
 export const DeluluLand = () => {
   return (
     <>
-      <div className="sidebar-element">
-        <h1>delulu land</h1>
+      <div className="sidebar-element border-sax">
+        <h1 className="bg-sax2">delulu land</h1>
         <p><Heart color="pink" /> All of my fics on AO3</p>
         <p><Heart color="yellow" /> WIP list</p>
         <p><Heart color="mint" /> My OTPs</p>

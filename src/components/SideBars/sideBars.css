@@ -1,17 +1,23 @@
 .sidebar {
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
 
 .sidebar-element {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  border: 6px dashed var(--pink500);
   border-radius: 20px;
+  flex-grow: 1;
 }
 
 .sidebar-element h1 {
   text-align: center;
+  color: white;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 0 0 20px 0;
 }
 
 .title-w-smallicon {
@@ -19,8 +25,14 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .title-w-smallicon img {
   height: 40px;
+}
+
+.title-w-smallicon h1 {
+  margin-bottom: 0px;
 }
