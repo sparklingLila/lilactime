@@ -1,0 +1,43 @@
+.container75 {
+  width: 75%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container75 h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 0;
+}
+
+.fandoms-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.fandoms-table {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell-wide {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 10px;
+  padding: 4px;
+  height: 30px;
+}
+
