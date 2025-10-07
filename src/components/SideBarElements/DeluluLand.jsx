@@ -5,7 +5,7 @@ export const DeluluLand = () => {
     <>
       <div className="sidebar-element border-sax">
         <h1 className="bg-sax2">delulu land</h1>
-        <p><Heart color="pink" /> All of my fics on AO3</p>
+        <p><Heart color="pink" /> <a href="https://archiveofourown.org/users/LilacRibbons" className="text-mint">My fics on AO3</a></p>
         <p><Heart color="yellow" /> WIP list</p>
         <p><Heart color="mint" /> My OTPs</p>
         <p><Heart color="blue" /> Playlists for my fics</p>
