@@ -8,7 +8,8 @@
   --pink500: #eb68b0;
   --yellow300: #fffbd4;
   --yellow400: #faf18f;
-  --mint300: #b6fce4;
+  --yellow500: #fcec3b;
+  --mint300: #caffeb;
   --mint400: #59f5ce;
   --mint500: #21d6a9;
   --sax300: #c7eefa;
@@ -71,6 +72,10 @@
 }
 
 .bg-yellow2 {
+  background-color: var(--yellow500);
+}
+
+.bg-yellow3 {
   background-color: var(--yellow400);
 }
 
@@ -101,23 +106,27 @@
 /* TEXT COLORS */
 
 .text-pink {
+  color: var(--pink500);
+}
+
+.text-pink2 {
   color: var(--pink400);
 }
 
 .text-yellow {
-  color: var(--yellow400);
+  color: var(--yellow500);
 }
 
 .text-mint {
-  color: var(--mint400);
+  color: var(--mint500);
 }
 
 .text-sax {
-  color: var(--sax400);
+  color: var(--sax500);
 }
 
 .text-lav {
-  color: var(--lav400);
+  color: var(--lav500);
 }
 
 
@@ -141,6 +150,11 @@
 
 .border-lav {
   border: 6px dashed var(--lav400);
+}
+
+.center-img {
+  display: block;
+  margin: auto;
 }
 
 

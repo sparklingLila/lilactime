@@ -2,9 +2,9 @@ import { Outlet } from "react-router-dom"
 import { NavBar } from "../NavBar/NavBar"
 import { LeftSidebar } from "../SideBars/LeftSidebar"
 import { RightSidebar } from "../SideBars/RightSidebar"
-import './mainContainer.css'
 import { Footer } from "../Footer/Footer"
-import { MediaILove } from "../MediaILove/MediaILove"
+import { BottomContainer } from "../BottomContainer/BottomContainer"
+import './mainContainer.css'
 
 export const MainContainer = () => {
   return (
@@ -15,7 +15,7 @@ export const MainContainer = () => {
         <Outlet />
         <RightSidebar />
       </div>
-      <MediaILove />
+      <BottomContainer />
       <Footer />
     </>
   )

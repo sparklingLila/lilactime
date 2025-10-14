@@ -7,7 +7,7 @@ export const Home = () => {
         {/* WELCOME SECTION */}
         <div className="title-w-bigicon">
           <img src="img/welcome.gif" alt="pink welcome sign" />
-          <h1 className="text-pink">WELCOME</h1>
+          <h1 className="text-pink2">WELCOME</h1>
           <img src="img/welcome.gif" alt="pink welcome sign" />
         </div>
         <p className="text-justify">
@@ -17,9 +17,14 @@ export const Home = () => {
           Click on anything on the side boxes and the full version of the content will appear here!
         </p>
         <img src="img/stardivider.gif" className="divider" alt="rainbow-colored stars divider" />
+
         {/* UPDATES SECTION */}
         <div>
-          <h1 className="text-pink"><img src="img/sparkles.gif" alt="sparkles gif" /> UPDATE LOG</h1>
+          <h1 className="text-pink2"><img src="img/sparkles.gif" alt="sparkles gif" /> UPDATE LOG</h1>
+          <p><Ribbon color="mint" /> 2025/10/14: Added tiny icons to every sidebar element.</p>
+          <p><Ribbon color="yellow"/> 2025/10/12: Updated 'media I love' section.</p>
+          <p><Ribbon color="pink"/> 2025/10/11: Added 'collections' and 'fashion' sections. Added little icons next to every subsection link.</p>
+          <p><Ribbon color="lilac"/> 2025/10/05: Gave every sidebar element a different color; added 'socials' and 'credits' sections.</p>
           <p><Ribbon color="blue" /> 2025/10/04: Added 'media I love' section.</p>
           <p><Ribbon color="mint"/> 2025/10/03: Added 'delulu land' and 'things I love' sections.</p>
           <p><Ribbon color="yellow" /> 2025/10/02: Added 'home', 'update log' and 'shoutbox'.</p>

@@ -1,3 +1,4 @@
+import { Fashion } from '../SideBarElements/Fashion'
 import { Favorites } from '../SideBarElements/Favorites'
 import './sideBars.css'
 
@@ -13,6 +14,7 @@ export const RightSidebar = () => {
           <iframe src="https://www3.cbox.ws/box/?boxid=3549431&boxtag=Q34sFz" width="100%" height="400" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
         </div>
         <Favorites />
+        <Fashion />
       </div>
     </>
   )
