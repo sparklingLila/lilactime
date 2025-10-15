@@ -162,6 +162,8 @@
 body {
   height: 100%;
   background-image: url('img/mainbg.jpg');
+  scrollbar-width: thin;
+  scrollbar-color: var(--lav400) var(--mint300);
 }
 
 div {
@@ -180,6 +182,26 @@ h1 {
   max-width: 1280px;
   margin: auto;
   padding: 20px;
+}
+
+
+/* SCROLL BARS */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mint300);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lav400);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lav500);
 }
 
 
