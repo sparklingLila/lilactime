@@ -32,7 +32,7 @@ export const Socials = () => {
         {/* LINK ME */}
         <h1 className="bg-mint2">★ link me! ★</h1>
         <img src="img/button.jpg" alt="lilac time button" className="center-img" />
-        <textarea value={linkText} readonly className="link-box center-img"></textarea>
+        <textarea value={linkText} readOnly className="link-box center-img"></textarea>
       </div>
     </>
   )
