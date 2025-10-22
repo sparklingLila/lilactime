@@ -53,3 +53,15 @@
   height: 30px;
 }
 
+.link-box {
+  height: 100px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline-color: var(--lav400);
+  margin-top: 20px;
+}
+
+.margin-bottom40 {
+  margin-bottom: 40px;
+}
