@@ -1,0 +1,19 @@
+.scroll-container, .stamp-container {
+  overflow: auto;
+  border: 1px solid var(--pink400);
+  border-radius: 10px;
+  padding: 0 20px 0;
+}
+
+.scroll-container {
+  height: 400px;
+}
+
+.stamp-container {
+  height: 720px;
+}
+
+.stamp {
+  width: 129px;
+  height: 73px;
+}
