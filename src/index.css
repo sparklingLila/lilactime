@@ -21,38 +21,38 @@
 
 @font-face {
   font-family: 'MilkyWay';
-  src: url('fonts/milkyway.woff') format('woff');
+  src: url('/fonts/milkyway.woff') format('woff');
 }
 
 @font-face {
   font-family: 'FreshTea';
-  src: url('fonts/freshtea.woff') format('woff');
+  src: url('/fonts/freshtea.woff') format('woff');
 }
 
 @font-face {
   font-family: 'UbuntuMono';
-  src: url('fonts/UbuntuMono-Regular.woff') format('woff');
+  src: url('/fonts/UbuntuMono-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'UbuntuMono';
-  src: url('fonts/UbuntuMono-Bold.woff') format('woff');
+  src: url('/fonts/UbuntuMono-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'UbuntuMono';
-  src: url('fonts/UbuntuMono-Italic.woff') format('woff');
+  src: url('/fonts/UbuntuMono-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'UbuntuMono';
-  src: url('fonts/UbuntuMono-BoldItalic.woff') format('woff');
+  src: url('/fonts/UbuntuMono-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
@@ -161,7 +161,7 @@
 
 body {
   height: 100%;
-  background-image: url('img/mainbg.jpg');
+  background-image: url('/img/mainbg.jpg');
   scrollbar-width: thin;
   scrollbar-color: var(--lav400) var(--mint300);
 }

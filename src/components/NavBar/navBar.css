@@ -1,5 +1,5 @@
 .header {
-  background-image: url('img/header.jpg');
+  background-image: url('/img/header.jpg');
   background-size: 1280px auto;
   max-width: 1280px;
   height: 400px;
