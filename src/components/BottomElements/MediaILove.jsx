@@ -6,9 +6,9 @@ export const MediaILove = () => {
     <>
       <div className="container75 border-lav">
         <div className="title-w-smallicon bg-lav2">
-          <img src="img/pix5ls-bowshiny.gif" alt="" />
+          <img src="img/pix5ls-bowshiny.gif" alt="shiny pink bow" />
           <h1>media i love</h1>
-          <img src="img/pix5ls-bowshiny.gif" alt="" />
+          <img src="img/pix5ls-bowshiny.gif" alt="shiny pink bow" />
         </div>
         <div className='fandoms-container'>
           {/* TELEVISION TABLE */}
@@ -26,7 +26,7 @@ export const MediaILove = () => {
             <div className='cell bg-sax2'>TADC</div>
             <div className='cell bg-sax'>Corrector Yui</div>
             <div className='cell bg-sax'>Stranger Things</div>
-            <div className='cell bg-sax2'>Vampire Princess Miyu</div>
+            <div className='cell bg-sax2'>Vampire Miyu</div>
             <div className='cell bg-sax2'>Digimon Adventure</div>
             <div className='cell bg-sax'>Angelique</div>
             <div className='cell bg-sax'>Alien Series</div>
@@ -70,7 +70,7 @@ export const MediaILove = () => {
             <div className='cell bg-mint'>Mario series</div>
             <div className='cell bg-mint'>MapleStory</div>
             <div className='cell bg-mint2'>Rabbids</div>
-            <div className='cell bg-mint2'>Amanda the Adventurer</div>
+            <div className='cell bg-mint2'>Amanda series</div>
             <div className='cell bg-mint'>Mr Hopp's Playhouse</div>
             <div className='cell bg-mint'>Menagerie series</div>
             <div className='cell bg-mint2'>Plants vs Zombies</div>
@@ -84,10 +84,10 @@ export const MediaILove = () => {
               <h2>MANGA & BOOKS</h2>
             </div>
             <div className='cell bg-yellow'>Chobits</div>
-            <div className='cell bg-yellow3'>Vampire Princess Miyu</div>
+            <div className='cell bg-yellow3'>Vampire Miyu</div>
             <div className='cell bg-yellow3'>JTHM & I feel sick</div>
             <div className='cell bg-yellow'>Angelique</div>
-            <div className='cell bg-yellow'>Super Doll Licca-chan</div>
+            <div className='cell bg-yellow'>Super Doll Licca</div>
             <div className='cell bg-yellow3'>Pokemon Special</div>
             <div className='cell bg-yellow3'>Uzumaki</div>
             <div className='cell bg-yellow'>Fuan no tane</div>

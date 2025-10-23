@@ -1,12 +1,12 @@
 .header {
   background-image: url('/img/header.jpg');
-  background-size: 1280px auto;
-  max-width: 1280px;
-  height: 400px;
-  padding: 40px;
+  background-size: cover;
+  max-width: 960px;
+  height: 280px;
+  padding: 36px;
   box-sizing: border-box;
-  border: 6px dashed var(--lav400);
-  border-radius: 20px 20px 0 0;
+  border: 4px dashed var(--lav400);
+  border-radius: 16px 16px 0 0;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 
 .header h1 {
   font-family: 'UbuntuMono', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   color: var(--lav400);
   margin: 0;
@@ -25,9 +25,9 @@
 
 .navbar {
   background-color: var(--lav400);
-  max-width: 1280px;
-  padding: 10px;
-  border-radius: 0 0 20px 20px;
+  max-width: 960px;
+  padding: 8px;
+  border-radius: 0 0 16px 16px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -35,7 +35,7 @@
 
 .navbar a {
   font-family: 'FreshTea', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   color: white;
 }

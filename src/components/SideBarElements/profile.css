@@ -1,6 +1,6 @@
 .avatar {
   width: 50%;
-  border: 6px dashed var(--lav400);
+  border: 4px dashed var(--lav400);
   border-radius: 50%;
   display: block;
   margin: auto;

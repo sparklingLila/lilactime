@@ -8,9 +8,9 @@
 
 .container75, .container25 {
   margin-top: 20px;
-  padding: 20px;
+  padding: 16px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 16px;
   box-sizing: border-box;
 }
 
@@ -18,15 +18,15 @@
   text-align: center;
   color: white;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 14px;
   margin-top: 0;
 }
 
 .fandoms-container {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   justify-content: space-around;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
 }
 
@@ -39,7 +39,7 @@
 .cell-wide {
   width: 100%;
   display: flex;
-  gap: 20px;
+  gap: 16px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 4px;
@@ -48,20 +48,20 @@
 .cell {
   box-sizing: border-box;
   width: 50%;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 4px;
-  height: 30px;
+  height: 22px;
 }
 
 .link-box {
-  height: 100px;
-  width: 200px;
-  font-size: 16px;
-  border-radius: 10px;
+  height: 60px;
+  width: 180px;
+  font-size: 12px;
+  border-radius: 6px;
   outline-color: var(--lav400);
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
-.margin-bottom40 {
-  margin-bottom: 40px;
+.margin-bottom30 {
+  margin-bottom: 30px;
 }

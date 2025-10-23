@@ -4,7 +4,7 @@ export const Ribbon = ( { color } ) => {
   const url = `img/tinyribbon${color}.gif`;
   const alt = `${color} ribbon`
   const height = {
-    height: '16px'
+    height: '14px'
   };
 
   return (

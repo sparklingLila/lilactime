@@ -133,23 +133,23 @@
 /* BORDER COLORS */
 
 .border-pink {
-  border: 6px dashed var(--pink400);
+  border: 4px dashed var(--pink400);
 }
 
 .border-yellow {
-  border: 6px dashed var(--yellow400);
+  border: 4px dashed var(--yellow400);
 }
 
 .border-mint {
-  border: 6px dashed var(--mint400);
+  border: 4px dashed var(--mint400);
 }
 
 .border-sax {
-  border: 6px dashed var(--sax400);
+  border: 4px dashed var(--sax400);
 }
 
 .border-lav {
-  border: 6px dashed var(--lav400);
+  border: 4px dashed var(--lav400);
 }
 
 .center-img {
@@ -168,20 +168,21 @@ body {
 
 div {
   font-family: 'UbuntuMono', monospace;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text300);
 }
 
 h1 {
   font-family: 'FreshTea', sans-serif;
   font-weight: 400;
+  font-size: 28px;
 }
 
 .main-wrapper {
   height: 100%;
-  max-width: 1280px;
+  max-width: 960px;
   margin: auto;
-  padding: 20px;
+  padding: 16px;
 }
 
 
